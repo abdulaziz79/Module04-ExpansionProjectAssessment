@@ -1,0 +1,108 @@
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+  }
+  
+  .container {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 400px;
+      width: 90%;
+      padding: 20px;
+      background-color: #181616;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      z-index: 2;
+      border-radius: 30px;
+      height: 40rem;
+      gap:2rem;
+      padding: 2rem;
+      border: none;
+    }
+    
+    .h2 {
+      text-align: center;
+      color: #f90a0a;
+    }
+    
+    .form {
+      display: flex;
+      flex-direction: column;
+      color: #ffffff;
+  
+  
+      
+    }
+    
+    label {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      color: #333;
+    }
+    
+    input,
+    textarea,
+    button {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    .submitButton {
+      background-color: #f90a0a;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+      font-size: 17px;
+      font-weight: 400;
+      border-radius: 17px;
+    }
+    .cancelButton {
+      background-color: #fcfcfc;
+      color: #000000;
+      cursor: pointer;
+      border: none;
+      font-size: 17px;
+      font-weight: 400;
+      border-radius: 17px;
+    }
+    
+    .cancelButton:hover {
+      background-color: #c7c7c7;
+    }
+    .submitButton:hover {
+      background-color: #d32c2c;
+    }
+  
+  
+    .inpt{
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 16px;
+      height: 2.9rem;
+    }
+  
+    @media screen and (max-width: 600px) {
+      .container {
+        width: 90%;
+      }
+    }
+    
+    .title{
+      color: white;
+    }
+    .file{
+      border: 2px solid rgb(0, 0, 0);
+      background-color: black;
+      border-radius: 16px;
+    }
