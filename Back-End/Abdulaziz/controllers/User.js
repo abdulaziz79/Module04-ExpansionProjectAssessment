@@ -24,7 +24,7 @@ export const register=async(req,res)=>{
                 expiresIn:"1h"
             }
         )
-        res.status(200).json({newUser, token})
+        res.status(201).json({newUser, token})
 
     } catch (error) {
         console.log(error.message)
